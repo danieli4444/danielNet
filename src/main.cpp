@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
 	std::cout << "init cells:" << std::endl;
 	NNcell *cell_A = new NNcell();
 	NNcell *cell_B = new NNcell();
+	
 
 	delete cell_A;
 }
